@@ -128,7 +128,8 @@ const animalsObjArr = [
 // console.log(findAverageAge(animalsObjArr));
 
 // Find oldest animal
-    // Return the age
+// Return the age
+
 // function findOldestAge(animalArr){
 //     let oldestAge = 0;
 //     for(let i=0;i<animalArr.length;i++){
@@ -141,6 +142,7 @@ const animalsObjArr = [
 // }
 // console.log(findOldestAge(animalsObjArr));
 
+// Find oldest animal
 // Return the animal Object
 // function findOldestAnimal(animalArr){
 //     let animal = animalArr[0];
@@ -154,6 +156,7 @@ const animalsObjArr = [
 // }
 // console.log(findOldestAnimal(animalsObjArr));
 
+// Find youngest animal
 // Return the age
 // function findYoungestAge(animalArr){
 //     let youngestAge = animalArr[0].age;
@@ -167,6 +170,7 @@ const animalsObjArr = [
 // }
 // console.log(findYoungestAge(animalsObjArr));
 
+// Find youngest animal
 // Return the animal
 // function findYoungestAnimal(animalArr){
 //     let youngestAnimal = animalArr[0];
@@ -180,15 +184,8 @@ const animalsObjArr = [
 // }
 // console.log(findYoungestAnimal(animalsObjArr));
 
-// const animalsObjArr = [
-//     { name: "Wombat", age: 1, species: "Vombatus ursinus"},
-//     { name: "Lion", age: 8, species: "Panthera leo"},
-//     { name: "Jaguar", age: 6, species: "Panthera onca"},
-//     { name: "Dragon", age: 100, species: "Hungarian horntail"},
-//     { name: "Anteater", age: 2, species: "Tridactyla"},
-//     { name: "Capybara", age: 3, species: "Hydrochoerinae"},
-// ];
 
+// Find Youngest Animal with for/of
 function findYoungestAnimal(animalArr){
     let youngestAnimal = animalArr[0];
     // for(let i=1;i<animalArr.length;i++){
